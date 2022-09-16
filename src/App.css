@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.App {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(90deg, rgb(212, 192, 182) 50%, #ffffff 50%);
+}
+
+@media screen and (max-width: 330px){
+  html{
+      width: 1000px;
+      overflow: auto;
+  }
+}
+
+
+

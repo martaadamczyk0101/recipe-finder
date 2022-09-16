@@ -1,0 +1,35 @@
+.navbar{
+    margin-top:-20px;
+    height:120px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: fixed;
+}
+.navbar-text{
+    font-family: flegrei, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:50px;
+    z-index: 2;
+    margin-left:15px;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+
+#text2{
+    color: rgb(212, 192, 182);
+    background-color: white;
+}
+
+@media (max-width:600px) {
+    .navbar{
+        margin-top:-35px;
+    }
+    .navbar-text{
+        font-size:30px;
+    }
+ }
